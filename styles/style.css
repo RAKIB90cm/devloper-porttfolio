@@ -33,8 +33,6 @@
 
 
 
-
-
 /* nav related style */
 
 nav {
@@ -200,9 +198,10 @@ main {
 }
 
 
-.resume-info{
+.resume-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
 
 
@@ -237,4 +236,72 @@ main {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+}
+
+.resume-instatitue {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.button-section .button{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px 19px 36px;
+    align-items: center;
+}
+
+.resume-discription{
+    margin-bottom: 15px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.downlod-cv {
+    text-align: center;
+    margin: 60px 0 100px 0;
+}
+
+/* footer styles */
+
+
+.footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 220px;
+    gap: 100px;
+}
+
+.left-column .right-column{
+    width: 50%;
+}
+
+.sosial-links a{
+    margin-right: 25px;
+   
+}
+
+.sosial-links{
+    margin-top: 25px;
+}
+
+
+.contact input[type="name"], .contact input[type="email"], textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    background: white;
+    width: 100%;
+}
+
+.footer .column-title{
+    margin-bottom: 30px;
 }
